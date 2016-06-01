@@ -1,0 +1,1 @@
+javascript:(function(){var obj=$('iframeautoheight').contentDocument.getElementsByTagName('select'); for(i=1;i<obj.length;i++){ obj[i].value='好'; } var rid=Math.max(1, Math.floor(Math.random()*obj.length)); obj[rid].value='较好'; $('iframeautoheight').contentDocument.getElementById('Button1').click(); })()
